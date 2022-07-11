@@ -1,0 +1,42 @@
+body {
+  padding: 16px 15px;
+  color: $default;
+  font-size: 16px;
+  line-height: 26px;
+  @extend %josefinSans-400;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section__title {
+  @extend %aleo-400;
+  font-family: serif;
+  font-size: 36px;
+  line-height: 26px;
+  color: $title;
+}
+
+.link__btn {
+  display: block;
+  width: 220px;
+  height: 63px;
+  background-color: $bg;
+  @extend %aleo-400;
+  color: $title;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 63px;
+  text-align: center;
+  &:hover {
+    transition: all .3s;
+    color: $search;
+  }
+}
